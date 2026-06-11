@@ -1,0 +1,28 @@
+1. First compilation!:
+
+cd ~/Desktop
+mkdir -p OopsCaps.app/Contents/MacOS
+swiftc OopsCaps.swift -o OopsCaps.app/Contents/MacOS/OopsCaps -framework Cocoa -framework Carbon
+cat <<EOF > OopsCaps.app/Contents/Info.plist
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleExecutable</key>
+    <string>OopsCaps</string>
+    <key>LSUIElement</key>
+    <true/>
+</dict>
+</plist>
+EOF
+
+
+
+
+
+
+
+2. Second and subsequent compilations!:
+
+cd ~/Desktop
+swiftc OopsCaps.swift -o OopsCaps.app/Contents/MacOS/OopsCaps -framework Cocoa -framework Carbon

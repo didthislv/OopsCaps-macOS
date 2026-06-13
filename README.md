@@ -17,19 +17,33 @@
 
 ## Installation
 
-1. Download the latest version from the (https://github.com/didthislv/OopsCaps-macOS/) page.
+1. Download the latest version from the [GitHub Releases](https://github.com/didthislv/OopsCaps-macOS/) page.
 2. Move `OopsCaps.app` to your **Applications** folder.
 3. Launch the application.
+
+## 🛡️ First Launch: macOS Gatekeeper Warning
+
+Because OopsCaps is currently distributed outside the Mac App Store, macOS Gatekeeper might block it on your first launch. 
+
+* **Scenario A:** A pop-up appears saying *"Apple could not verify OopsCaps..."*
+* **Scenario B:** **Nothing happens at all**, and the app silently fails to open.
+
+If the app doesn't launch or is blocked, don't worry! You just need to manually allow it to run:
+
+1. Open **System Settings** on your Mac.
+2. Navigate to **Privacy & Security** on the left sidebar.
+3. Scroll down to the **Security** section.
+4. You will see a message stating: *"OopsCaps" was blocked to protect your Mac.* Click **"Open Anyway"**.
+5. Confirm with your Mac password or Touch ID, then click **Open**.
 
 ## ⚠️ Important: Accessibility Permissions
 
 Because OopsCaps needs to monitor your keyboard and interact with the clipboard globally, **you must grant Accessibility permissions** to the app:
 
-1. When you first launch the app, a system prompt will appear. Click **"Open System Preferences"**.
-2. Go to **Security & Privacy > Privacy > Accessibility**.
-3. Click the **Lock icon** at the bottom left to allow changes (enter your Mac password).
-4. Find **OopsCaps** in the list and **check the box** next to it.
-5. Restart the application.
+1. When you first launch the app, a system prompt will appear. Click **"Open System Preferences"** (or *Open System Settings* on newer macOS versions).
+2. Go to **Privacy & Security > Privacy > Accessibility**.
+3. Toggle the switch next to **OopsCaps** to enable it (you might need to enter your Mac password).
+4. Restart the application.
 
 ## How to use
 
